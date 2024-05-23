@@ -11,17 +11,22 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         header {
             background-color: #b8745d;
             color: white;
             padding: 10px 0;
+            width: 100%;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
             background-color: #caa055;
+            width: 100%;
         }
         nav a {
             color: white;
@@ -35,14 +40,13 @@
         section {
             padding: 20px;
             max-width: 800px;
-            margin: auto;
+            width: 100%;
         }
         footer {
             text-align: center;
             padding: 10px 0;
             background-color: #b8745d;
             color: white;
-            position: relative;
             width: 100%;
         }
         .skills, .projects, .contact {
@@ -51,16 +55,21 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: 20px 0;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .skills ul, .projects ul {
             list-style: none;
             padding: 0;
+            width: 100%;
         }
         .skills ul li, .projects ul li {
             background: #f4f4f9;
             margin: 5px 0;
             padding: 10px;
             border-radius: 4px;
+            text-align: center;
         }
         .contact a {
             color: #b8745d;
