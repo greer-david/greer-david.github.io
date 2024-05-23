@@ -21,6 +21,15 @@
             padding: 10px 0;
             width: 100%;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
         }
         nav {
             display: flex;
@@ -71,6 +80,13 @@
             border-radius: 4px;
             text-align: center;
         }
+        .projects ul li a {
+            color: #b8745d;
+            text-decoration: none;
+        }
+        .projects ul li a:hover {
+            text-decoration: underline;
+        }
         .contact a {
             color: #b8745d;
             text-decoration: none;
@@ -79,6 +95,7 @@
 </head>
 <body>
     <header>
+        <img src="profile.jpg" alt="David Greer">
         <h1>David Greer</h1>
         <p>Data Analyst</p>
     </header>
@@ -137,7 +154,7 @@
         <h2>Projects</h2>
         <ul>
             <li>
-                <strong>Data Analytics Job Market Analysis w/ SQL & Tableau (04/2024 - 04/2024)</strong>
+                <strong><a href="https://github.com/greer-david/data_jobs_analysis" target="_blank">Data Analytics Job Market Analysis w/ SQL & Tableau (04/2024 - 04/2024)</a></strong>
                 <p>Executed a thorough analysis of the job market for data and business analysts, pinpointing essential skills, top companies, and preferred locations. Utilized PostgreSQL, Tableau, and storytelling to deliver impactful insights for aspiring professionals.</p>
             </li>
         </ul>
