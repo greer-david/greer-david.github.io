@@ -11,6 +11,22 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
+        }
+        header {
+            background-color: #b8745d;
+            color: white;<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Greer - Data Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -80,9 +96,22 @@
             border-radius: 4px;
             text-align: center;
         }
+        .projects ul li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .projects ul li a {
             color: #b8745d;
             text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .projects ul li a img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin-bottom: 10px;
         }
         .projects ul li a:hover {
             text-decoration: underline;
@@ -154,7 +183,141 @@
         <h2>Projects</h2>
         <ul>
             <li>
-                <strong><a href="https://github.com/greer-david/data_jobs_analysis" target="_blank">Data Analytics Job Market Analysis w/ SQL & Tableau (04/2024 - 04/2024)</a></strong>
+                <a href="https://github.com/greer-david/data_jobs_analysis" target="_blank">
+                    <img src="3_Skill_Type_Comp.png" alt="Data Analytics Job Market Analysis">
+                    <strong>Data Analytics Job Market Analysis w/ SQL & Tableau (04/2024 - 04/2024)</strong>
+                </a>
+                <p>Executed a thorough analysis of the job market for data and business analysts, pinpointing essential skills, top companies, and preferred locations. Utilized PostgreSQL, Tableau, and storytelling to deliver impactful insights for aspiring professionals.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:greer3david@gmail.com">greer3david@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/greer-david">linkedin.com/in/greer-david</a></p>
+        <p>GitHub: <a href="https://github.com/greer-david">github.com/greer-david</a></p>
+        <p><a href="David_Greer_Resume.pdf" download>Download my resume</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 David Greer</p>
+    </footer>
+</body>
+</html>
+
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #caa055;
+        }
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #7e8c84;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #b8745d;
+            color: white;
+            position: relative;
+            width: 100%;
+        }
+        .skills, .projects, .contact {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li {
+            background: #f4f4f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .contact a {
+            color: #b8745d;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David Greer</h1>
+        <p>Data Analyst</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about leveraging data to drive impactful decisions. My goal is to consistently grow my data analytics skills and make genuine contributions to my team. In my current role, I developed an end-to-end Continuing Professional Education (CPE) hours tracking system. The system's Tableau dashboard and new user entry portal utilizing Microsoft Power Apps improves our data management processes and efficiency.
+        </p>
+        <p>
+            My unique blend of empathy and communication skills allows me to bridge the gap between technical and non-technical teams. I thrive on professional growth, continuously seeking opportunities for improvement and innovation.
+        </p>
+        <p>
+            Outside of work, I'm an avid NBA fan with a keen interest in the draft, scouting process, and basketball statistics. I'm also rediscovering my love for reading, currently engrossed in <em>The Big Short</em> by Michael Lewis.
+        </p>
+        <p>
+            Check out my GitHub portfolio to see a collection of my data analytics projects. Discover how I apply my skills to real-world problems and create impactful solutions.
+        </p>
+    </section>
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <h3>Mississippi Office of the State Auditor • Data Analyst</h3>
+        <p>Jackson, Mississippi, United States • 09/2023 - Present</p>
+        <ul>
+            <li>Developed a Continuing Professional Education (CPE) hours tracking system using Tableau and Microsoft Power Apps, improving data management processes and efficiency.</li>
+        </ul>
+        <h3>Siemens Energy • Buying Professional</h3>
+        <p>Richland, Mississippi, United States • 11/2022 - 08/2023</p>
+        <ul>
+            <li>Secured necessary materials for production teams, supporting seamless production planning and execution, resulting in uninterrupted production.</li>
+            <li>Negotiated favorable pricing with suppliers, ensuring timely delivery of high-quality materials and maintaining a safety stock that mitigated production shutdown risks.</li>
+        </ul>
+        <h3>Total Transportation of MS • Pricing Analyst</h3>
+        <p>Richland, MS • 05/2022 - 11/2022</p>
+        <ul>
+            <li>Generated 10+ reports daily, weekly, and monthly, providing key performance indicators for 15+ teams, driving informed decision-making and promoting company-wide success.</li>
+            <li>Improved reporting and rate upload processes by utilizing advanced data skills (DAX, Power Query, Power Pivot, Power BI), reducing reporting time by 20%.</li>
+        </ul>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL: CTEs, Subqueries, Temporary Tables, Window Functions, Stored Procedures</li>
+            <li>Data Visualization Tools: Tableau, Microsoft Power BI, Data Modeling</li>
+            <li>Microsoft Excel: Power Query, Pivot Tables, XLOOKUP, Conditional Formatting</li>
+            <li>Additional Software: Microsoft Power Apps, SAP Materials Management (SAP MM), Salesforce</li>
+        </ul>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Data Analytics Job Market Analysis w/ SQL & Tableau (04/2024 - 04/2024)</strong>
                 <p>Executed a thorough analysis of the job market for data and business analysts, pinpointing essential skills, top companies, and preferred locations. Utilized PostgreSQL, Tableau, and storytelling to deliver impactful insights for aspiring professionals.</p>
             </li>
         </ul>
